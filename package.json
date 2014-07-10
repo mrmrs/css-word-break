@@ -6,8 +6,7 @@
   "keywords": [
     "css",
     "oocss",
-    "",
-    ""
+    "word-break"
   ],
   "css-word-break": {
     "type": "git",
