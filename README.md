@@ -24,21 +24,21 @@ or download the css on github and include in your project.
 .wb-ka {  word-break: keep-all; }
 .wb-i {   word-break: inherit; }
 
-@include break(not-small) {
+@media screen and (min-width: 48em) {
   .wb-nor-ns { word-break: normal; }
   .wb-ba-ns {  word-break: break-all; }
   .wb-ka-ns {  word-break: keep-all; }
   .wb-i-ns {   word-break: inherit; }
 }
 
-@include break(medium) {
+@media screen and (min-width: 48em) and (max-width: 64em) {
   .wb-nor-m { word-break: normal; }
   .wb-ba-m {  word-break: break-all; }
   .wb-ka-m {  word-break: keep-all; }
   .wb-i-m {   word-break: inherit; }
 }
 
-@include break(large) {
+@media screen and (min-width: 64em)  {
   .wb-nor-l { word-break: normal; }
   .wb-ba-l {  word-break: break-all; }
   .wb-ka-l {  word-break: keep-all; }
