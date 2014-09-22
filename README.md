@@ -20,7 +20,8 @@ View on [npm](https://www.npmjs.org/package/css-word-break)
 ## File Size
 
 754B word-break.css
-586B word-break.min.css
+586B word-break.min.css 
+179B minified and gzipped
 
 ## The Code
 ```
