@@ -9,13 +9,18 @@
 *  -l  = large
 
 ## Install
+Grab the css partial from github and include it in your project or alternatively
+you can install it via npm:
 ```
 npm install --save-dev css-word-break
 ```
-or download the css on github and include in your project.
+View on [npm](https://www.npmjs.org/package/css-word-break)
+
 
 ## File Size
 
+754B word-break.css
+586B word-break.min.css
 
 ## The Code
 ```
