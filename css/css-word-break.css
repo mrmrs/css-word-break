@@ -1,15 +1,26 @@
+/*
+   WORD BREAK
+*/
+.wb-nor { word-break: normal; }
+.wb-ba { word-break: break-all; }
+.wb-ka { word-break: keep-all; }
+.wb-i { word-break: inherit; }
+@media screen and (min-width: 48em) {
+ .wb-nor-ns { word-break: normal; }
+ .wb-ba-ns { word-break: break-all; }
+ .wb-ka-ns { word-break: keep-all; }
+ .wb-i-ns { word-break: inherit; }
+}
+@media screen and (min-width:48em) and (max-width: 64em) {
+ .wb-nor-m { word-break: normal; }
+ .wb-ba-m { word-break: break-all; }
+ .wb-ka-m { word-break: keep-all; }
+ .wb-i-m { word-break: inherit; }
+}
+@media screen and (min-width: 64em) {
+ .wb-nor-l { word-break: normal; }
+ .wb-ba-l { word-break: break-all; }
+ .wb-ka-l { word-break: keep-all; }
+ .wb-i-l { word-break: inherit; }
+}
 
-  Postprocess tachyons stylesheets
-
-  Usage
-    $ tachyons <input.css>
-
-  Options
-    -m, --minify Minify the output stylesheet
-    --generate-docs Generate documentation for a given module
-    --package The path to the module package to be documented
-
-  Example
-    $ tachyons src/tachyons.css > dist/c.css
-    $ tachyons src/tachyons.css > dist/c.css --minify
-    $ tachyons src/tachyons-type-scale.css --generate-docs --package=./package.json > readme.md
