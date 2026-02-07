@@ -8,10 +8,10 @@
 .wb-i {   word-break: inherit; }
 
 @media screen and (min-width: 48em) {
-  .wb-nor-ns { word-break: normal; }
-  .wb-ba-ns {  word-break: break-all; }
-  .wb-ka-ns {  word-break: keep-all; }
-  .wb-i-ns {   word-break: inherit; }
+  .wb-nor-s { word-break: normal; }
+  .wb-ba-s {  word-break: break-all; }
+  .wb-ka-s {  word-break: keep-all; }
+  .wb-i-s {   word-break: inherit; }
 }
 
 @media screen and (min-width:48em) and (max-width: 64em) {
