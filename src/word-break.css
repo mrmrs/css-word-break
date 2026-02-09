@@ -7,21 +7,21 @@
 .wb-ka {  word-break: keep-all; }
 .wb-i {   word-break: inherit; }
 
-@media screen and (min-width: 48em) {
+@media screen and (min-width: 32em) {
   .wb-nor-s { word-break: normal; }
   .wb-ba-s {  word-break: break-all; }
   .wb-ka-s {  word-break: keep-all; }
   .wb-i-s {   word-break: inherit; }
 }
 
-@media screen and (min-width:48em) and (max-width: 64em) {
+@media screen and (min-width:48em) {
   .wb-nor-m { word-break: normal; }
   .wb-ba-m {  word-break: break-all; }
   .wb-ka-m {  word-break: keep-all; }
   .wb-i-m {   word-break: inherit; }
 }
 
-@media screen and (min-width: 64em) {
+@media screen and (min-width: 96em) {
   .wb-nor-l { word-break: normal; }
   .wb-ba-l {  word-break: break-all; }
   .wb-ka-l {  word-break: keep-all; }
