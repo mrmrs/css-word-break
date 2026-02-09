@@ -1,38 +1,44 @@
 {
   "name": "css-word-break",
-  "style": "word-break.css",
-  "version": "1.0.7",
-  "homepage": "http://github.com/mrmrs/css-word-break",
-  "description": "Css module of single purpose classes for word break",
+  "version": "2.0.0",
+  "description": "Functional CSS for word-break",
+  "style": "dist/word-break.css",
+  "main": "dist/word-break.css",
+  "exports": {
+    ".": "./dist/word-break.css",
+    "./dist/*": "./dist/*",
+    "./src/*": "./src/*"
+  },
+  "files": [
+    "dist",
+    "src"
+  ],
+  "scripts": {
+    "build": "node build.js",
+    "prepublishOnly": "npm run build"
+  },
   "keywords": [
     "css",
-    "oocss",
-    "word-break"
+    "word-break",
+    "utility",
+    "single-purpose",
+    "functional-css"
   ],
-  "css-word-break": {
+  "homepage": "https://github.com/mrmrs/css-word-break",
+  "repository": {
     "type": "git",
-    "url": "http://github.com/mrmrs/css-word-break.git"
+    "url": "https://github.com/mrmrs/css-word-break.git"
   },
   "bugs": {
-    "url": "https://github.com/mrmrs/css-word-break/issues",
-    "email": "hi@mrmrs.cc"
+    "url": "https://github.com/mrmrs/css-word-break/issues"
   },
   "author": {
     "name": "Adam Morse",
     "email": "hi@mrmrs.cc",
     "url": "http://mrmrs.cc"
   },
-  "contributors": [
-    {
-      "name": "Adam Morse",
-      "email": "hi@mrmrs.cc"
-    }
-  ],
-  "license": "MIT",
+  "license": "ISC",
   "devDependencies": {
     "lightningcss": "^1"
-  },
-  "scripts": {
-    "build": "node build.js"
   }
 }
